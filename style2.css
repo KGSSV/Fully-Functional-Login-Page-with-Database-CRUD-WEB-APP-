@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+input:focus, textarea:focus, select:focus
+{
+    outline: none;
+}
+img {
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    top: -10px;
+}
+.container
+{
+    position: relative;
+    height: 500px;
+    width: 350px;
+    /*border: 1px solid black;*/
+    top: 20px;
+    left: 35%;
+    zoom: 130%;
+    
+}
+.welcome-t
+{
+    position: absolute;
+    height: 150px;
+    width: 500px;
+    /*border: 1px solid black;*/
+    top: 25px;
+    left: 34.5%;
+    right: 25px;
+    font-size: 2em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+.inputs
+{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 140px;
+    left: 35px;
+    right: 25px;
+    /*border: 0.5px solid black;*/
+}
+
+#f1 , #f2 , #f3
+{
+    position: relative;
+    margin: 20px;
+    border-radius: 25px;
+    border: 0.5px solid black;
+    padding: 18px;
+    left: 13px;
+    font-size: 1em;
+}
+ #f4 ,#f5
+{
+    width: 300px;
+    position: relative;
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 20px;
+    top: 5px;
+    left: -17px;
+    border: 0.5px solid black;
+    transition: 0.3s;
+    
+}
+#f5
+{
+    position: relative;
+    top: 10px;
+    
+}
+#f5:hover {
+    background-color: red;
+    color: white;
+    
+}
+#f4:hover {
+    background-color: grey;
+    color: white;
+    background: #1F60F0;
+}
+
+.feedback{
+    position: absolute;
+    height: 40px;
+    width: 270px;
+    border: 1px solid black;
+    top: 110px;
+    left: 45px;
+    right: 50px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    opacity: 0.3;
+    border-radius: 8px;
+}
+

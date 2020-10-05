@@ -1,0 +1,84 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.welcome
+{
+    position: relative;
+    left: 20px;
+    font-size: 2em;
+}
+img {
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    top: -10px;
+}
+
+#input-1
+{
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    top: 30px;
+    width: 350px;
+   
+}
+.size
+{
+    position: relative;
+    top: 10px;
+    font-size: 0.5em;
+}
+#button-1
+{
+    position: relative;
+    top: 80px;
+    left: -350px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    transition: 0.3s;
+}
+#button-1:hover
+{
+        background-color: green;
+        color: white;
+}
+input:focus, textarea:focus, select:focus
+{
+    outline: none;
+}
+#button-2
+{
+    position: relative;
+    top: 80px;
+    left: -350px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    transition: 0.3s;
+}
+#button-2:hover
+{
+        background-color: grey;
+        color: white;
+}
+div
+{
+    zoom: 140%;
+}
+span,p
+{
+   color: white;
+}
