@@ -3,4 +3,4 @@ The following webpage has login page which has many features such as registering
 is best optimized and devices with resolution 1920x1080
 
 the code can be reused for educational purposes
-made by KGSSV AKHIL KUMAR
+
